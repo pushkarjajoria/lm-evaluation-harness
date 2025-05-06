@@ -1,0 +1,15 @@
+# Auto-generated task for bbbp_mollama_k4_noeq
+task: bbbp_mollama_k4_noeq
+dataset_path: pushkarjajoria/ICL_for_MPP
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    test: bbbp_k4_noeq.csv
+test_split: test
+
+doc_to_text: prompt
+doc_to_target: label
+doc_to_choice: ["0", "1"]
+
+metric_list:
+  - metric: acc
