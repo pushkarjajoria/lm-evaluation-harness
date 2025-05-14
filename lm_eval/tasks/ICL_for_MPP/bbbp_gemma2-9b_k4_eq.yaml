@@ -1,0 +1,15 @@
+# Auto-generated task for bbbp_gemma2-9b_k4_eq
+task: bbbp_gemma2-9b_k4_eq
+dataset_path: pushkarjajoria/ICL_for_MPP
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    test: bbbp_k4_eq.csv
+test_split: test
+
+doc_to_text: prompt
+doc_to_target: label
+doc_to_choice: ["0", "1"]
+
+metric_list:
+  - metric: acc
